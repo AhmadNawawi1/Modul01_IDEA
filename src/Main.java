@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,5 +12,9 @@ public class Main {
         boolean tampan = true;
 
         System.out.println("Nama Lengkap : " + " " + namaDepan + " " + namaBelakang);
+
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+        System.out.println(uniskaString);
     }
 }
